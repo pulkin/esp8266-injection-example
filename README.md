@@ -1,5 +1,8 @@
 # ESP8266 packet injection/sniffer example
 
+**Warning!** This example runs with a particular SDK build
+which was available around September 2015. You can download it [here](https://www.dropbox.com/s/lkjwiyk81ky7wfu/esp_iot_sdk_v1.3.0_15_08_08.zip?dl=0).
+
 This example project utilizes sniffer capabilities of
 ESP8266 to perform deauth attack. Minimum SDK
 requirement is 1.4.0. The communication between the
