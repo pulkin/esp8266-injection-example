@@ -15,7 +15,7 @@ FW_BASE		= firmware
 XTENSA_TOOLS_ROOT ?= /opt/Espressif/crosstool-NG/builds/xtensa-lx106-elf/bin
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= /opt/Espressif/ESP8266_SDK
+SDK_BASE	?= $(CURDIR)/esp_iot_sdk_v1.3.0
 
 #Esptool.py path and port
 ESPTOOL		?= esptool.py
