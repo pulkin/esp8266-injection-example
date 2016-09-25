@@ -143,7 +143,7 @@ void ICACHE_FLASH_ATTR
 sniffer_system_init_done(void)
 {
     // Set up promiscuous callback
-    wifi_set_channel(1);
+    wifi_set_channel(channel);
     wifi_promiscuous_enable(0);
     wifi_set_promiscuous_rx_cb(promisc_cb);
     wifi_promiscuous_enable(1);
