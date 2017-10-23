@@ -2,6 +2,7 @@
 
 **Warning!** This example runs with a particular SDK build that is now integrated into this project.
 Future versions of the esp_iot_sdk removed the ability to send wifi control frames with `wifi_send_pkt_freedom`.
+I recommend checking https://github.com/kieransimkin/esp8266-freedom for the relevant object files if you want to use both newer SDK and `wifi_send_pkt_freedom` the way it was implemented in this SDK build.
 
 This example project utilizes sniffer capabilities of
 ESP8266 to perform deauth attack. The communication between the
